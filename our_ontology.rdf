@@ -1,0 +1,1354 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/"
+     xml:base="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/approves -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/approves">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/DepartmentCommittee"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ProjectProposal"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/designsDocument -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/designsDocument">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Designer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/DesignDocument"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/develops -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/develops">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Developer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/evaluatedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/evaluatedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Evaluator"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/evaluates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/evaluates">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Evaluator"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/evaluatesDeliverable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/evaluatesDeliverable">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Evaluator"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasDeliverable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasDeliverable">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/isPartOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasDesignDocument -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasDesignDocument">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasDeliverable"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/DesignDocument"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasDocumentationPhase -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasDocumentationPhase">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasPhase"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/DocumentationPhase"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasEvaluation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasEvaluation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Evaluation"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasFinalReport -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasFinalReport">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasDeliverable"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/FinalReport"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasImplementationPhase -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasImplementationPhase">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasPhase"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ImplementationPhase"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasImplementationPlan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasImplementationPlan">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasDeliverable"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ImplementationPlan"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasLiveDemo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasLiveDemo">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasDeliverable"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/LiveDemo"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasPart -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasPart">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasDeliverable"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/isPartOf"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasPhase -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasPhase">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/CapstonePhase"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasPresentation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasPresentation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Presentation"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasProjectLeader -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasProjectLeader">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Team"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ProjectLeader"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasPublication -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasPublication">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasDeliverable"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Publication"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasSRS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasSRS">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasDeliverable"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/SRS"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasSupervisor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasSupervisor">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Team"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Supervisor"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasTeamMember -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasTeamMember">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Team"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Student"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/isPartOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/isPartOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/leadsProject -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/leadsProject">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ProjectLeader"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/managedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/managedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ProjectManager"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/occursIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/occursIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/CapstonePhase"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/participatesIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/participatesIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/CapstonePhase"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/participatesInEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/participatesInEvent">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/StakeHolder"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Event"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/precedesPhase -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/precedesPhase">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/CapstonePhase"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/CapstonePhase"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/providesEvaluation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/providesEvaluation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Evaluator"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Evaluation"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/receivesEvaluation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/receivesEvaluation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Evaluation"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/researches -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/researches">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Researcher"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/resultsIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/resultsIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/reviewedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/reviewedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/StakeHolder"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/supervisedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/supervisedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Supervisor"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/worksWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/worksWith">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Student"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Student"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#employeeName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#employeeName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Supervisor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#evaluationStatus -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#evaluationStatus">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Evaluation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#eventDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#eventDescription">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#publicationTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#publicationTitle">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Publication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/affiliation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/affiliation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Supervisor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/comments -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/comments">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Evaluation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/description">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/doi -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/doi">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Publication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/email -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/email">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/employeeId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/employeeId">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Supervisor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/endDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/endDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/evaluationDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/evaluationDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Evaluation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/eventDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/eventDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/eventName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/eventName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/fileFormat -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/fileFormat">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasDescription">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/hasTitle">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/journal -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/journal">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Publication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/location -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/location">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/name">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/noOfSupervisors -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/noOfSupervisors">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Supervisor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/phaseName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/phaseName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/CapstonePhase"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/phaseOrder -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/phaseOrder">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/CapstonePhase"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/projectCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/projectCode">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/publicationDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/publicationDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Publication"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/role -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/role">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/roleOfSupervisor -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/roleOfSupervisor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Supervisor"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/score -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/score">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Evaluation"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/startDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/startDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/status -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/status">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/studentId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/studentId">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Student"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/submissionDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/submissionDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/teamId -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/teamId">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Team"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/teamName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/teamName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Team"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/title">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/totalMembers -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/totalMembers">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Team"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/version -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/version">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#Capstone">
+        <rdfs:comment>A final year project completed by students as part of their degree program.</rdfs:comment>
+        <rdfs:label>Capstone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#ClassDiagram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#ClassDiagram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/DesignDocument"/>
+        <rdfs:comment>A drawing that shows the main parts (classes) of the system and how they are linked.</rdfs:comment>
+        <rdfs:label>ClassDiagram</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#ObjectDiagram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57#ObjectDiagram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/DesignDocument"/>
+        <rdfs:comment>A picture that shows real examples of how things in the system are connected at one moment.</rdfs:comment>
+        <rdfs:label>ObjectDiagram</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ActivityDiagram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ActivityDiagram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/DesignDocument"/>
+        <rdfs:comment>A flowchart that shows the steps of how something is done in the system.</rdfs:comment>
+        <rdfs:label>ActivityDiagram</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Capstone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Capstone">
+        <rdfs:comment>A work done by a team with a goal to finish something, like a report, design, or product.</rdfs:comment>
+        <rdfs:label>Project</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/CapstonePhase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/CapstonePhase">
+        <rdfs:comment>A stage or step in the capstone project, like starting, building, or finishing it.</rdfs:comment>
+        <rdfs:label>CapstonePhase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/CollaborationDiagram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/CollaborationDiagram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/DesignDocument"/>
+        <rdfs:comment>A diagram that shows how different parts of the system or team work together.</rdfs:comment>
+        <rdfs:label>CollaborationDiagram</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/DFD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/DFD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/DesignDocument"/>
+        <rdfs:comment>A diagram that shows how data moves through the system.</rdfs:comment>
+        <rdfs:label>DFD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable">
+        <rdfs:comment>Something the team gives at the end or during the project</rdfs:comment>
+        <rdfs:label>Deliverables</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/DepartmentCommittee -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/DepartmentCommittee">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/StakeHolder"/>
+        <rdfs:comment>A group of teachers who check and approve student projects.</rdfs:comment>
+        <rdfs:label>DepartmentCommittee</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/DesignDocument -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/DesignDocument">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable"/>
+        <rdfs:comment>A file that explains how the system will look and function before it&apos;s built.</rdfs:comment>
+        <rdfs:label>DesignDocument</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Designer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Designer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Student"/>
+        <rdfs:comment>The person who works on the look and feel of the system.</rdfs:comment>
+        <rdfs:label>Designer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Developer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Developer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Student"/>
+        <rdfs:comment>The person who writes the code and builds the system.</rdfs:comment>
+        <rdfs:label>Developer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/DocumentationPhase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/DocumentationPhase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/CapstonePhase"/>
+        <rdfs:comment>The time when the team writes all reports, guides, and other documents.</rdfs:comment>
+        <rdfs:label>DocumentationPhase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ERD -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ERD">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/DesignDocument"/>
+        <rdfs:comment>A diagram that shows the database structure and how its parts connect.</rdfs:comment>
+        <rdfs:label>ERD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Evaluation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Evaluation">
+        <rdfs:comment>Checking how well the team or their work is done. It could be by a teacher or Evaluator.</rdfs:comment>
+        <rdfs:label>Evaluation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Evaluator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Evaluator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/StakeHolder"/>
+        <rdfs:comment>Someone who checks and grades the project.</rdfs:comment>
+        <rdfs:label>Evaluator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Event">
+        <rdfs:comment>Any meeting, activity, or program related to the FYP</rdfs:comment>
+        <rdfs:label>Event</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ExternalEvaluator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ExternalEvaluator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Evaluator"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/InternalEvaluator"/>
+        <rdfs:comment>A person from outside the university who reviews and gives feedback on the project.</rdfs:comment>
+        <rdfs:label>ExternalEvaluator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/FinalReport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/FinalReport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable"/>
+        <rdfs:comment>The last and full report of the project, including everything done.</rdfs:comment>
+        <rdfs:label>FinalReport</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/FunctionalRequirement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/FunctionalRequirement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/SRS"/>
+        <rdfs:comment>What the system must do, like features or tasks it should handle.</rdfs:comment>
+        <rdfs:label>FunctionalRequirement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/GanttChart -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/GanttChart">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ImplementationPlan"/>
+        <rdfs:comment>A timeline that shows tasks, deadlines, and who’s doing what.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ImplementationPhase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ImplementationPhase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/CapstonePhase"/>
+        <rdfs:comment>The stage when the team builds and codes the project.</rdfs:comment>
+        <rdfs:label>ImplementationPhase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ImplementationPlan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ImplementationPlan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable"/>
+        <rdfs:comment>A plan that explains how the team will build and complete the project.</rdfs:comment>
+        <rdfs:label>ImplementationPlan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/InternalEvaluator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/InternalEvaluator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Evaluator"/>
+        <rdfs:comment>A teacher from the same university who reviews and gives feedback on the project.</rdfs:comment>
+        <rdfs:label>InternalEvaluator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/LiveDemo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/LiveDemo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable"/>
+        <rdfs:comment>A live presentation where the team shows how their project works.</rdfs:comment>
+        <rdfs:label>LiveDemo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/NonFunctionalRequirement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/NonFunctionalRequirement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/SRS"/>
+        <rdfs:comment>Things the system should have, like being fast, easy to use, or safe.</rdfs:comment>
+        <rdfs:label>NonFunctionalRequirement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Presentation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Presentation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable"/>
+        <rdfs:comment>A formal talk or slideshow where the team explains their project.</rdfs:comment>
+        <rdfs:label>Presentation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ProjectLeader -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ProjectLeader">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Student"/>
+        <rdfs:comment>The student who leads the team and keeps things on track.</rdfs:comment>
+        <rdfs:label>ProjectLeader</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ProjectManager -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ProjectManager">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/StakeHolder"/>
+        <rdfs:comment>The person in charge of planning and managing the project team.</rdfs:comment>
+        <rdfs:label>ProjectManager</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ProjectManual -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ProjectManual">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable"/>
+        <rdfs:comment>A simple guide that explains how to use the system.</rdfs:comment>
+        <rdfs:label>ProjectManual</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ProjectPoster -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ProjectPoster">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable"/>
+        <rdfs:comment>A one-page visual summary of the project, usually used in events or displays.</rdfs:comment>
+        <rdfs:label>ProjectPoster</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ProjectProposal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ProjectProposal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable"/>
+        <rdfs:comment>An early document that shares the idea, goals, and plan for the project.</rdfs:comment>
+        <rdfs:label>ProjectProposal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ProjectVideo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ProjectVideo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable"/>
+        <rdfs:comment>A recorded video showing the project and how it works.</rdfs:comment>
+        <rdfs:label>ProjectVideo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Publication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Publication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable"/>
+        <rdfs:comment>Any report or paper written about the project to share with others.</rdfs:comment>
+        <rdfs:label>Publication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Researcher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Researcher">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Student"/>
+        <rdfs:comment>A team member who finds useful information and ideas for the project.</rdfs:comment>
+        <rdfs:label>Researcher</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/SRS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/SRS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Deliverable"/>
+        <rdfs:comment>A document that lists everything the system should do and how it should work.</rdfs:comment>
+        <rdfs:label>SRS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/SequenceDiagram -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/SequenceDiagram">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/DesignDocument"/>
+        <rdfs:comment>A diagram that shows the order in which things happen in the system.</rdfs:comment>
+        <rdfs:label>SequenceDiagram</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/StakeHolder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/StakeHolder">
+        <rdfs:comment>Anyone who cares about the project, like users, teachers, or clients.</rdfs:comment>
+        <rdfs:label>StakeHolder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Student -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Student">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/StakeHolder"/>
+        <rdfs:comment>A university student working on the capstone project.</rdfs:comment>
+        <rdfs:label>Student</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Supervisor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Supervisor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/StakeHolder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Team -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Team">
+        <rdfs:comment>A group of people working together on the same project.</rdfs:comment>
+        <rdfs:label>Team</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/TimeLine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/TimeLine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ImplementationPlan"/>
+        <rdfs:comment>A schedule showing when each task in the project should be done.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/UseCase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/UseCase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/SRS"/>
+        <rdfs:comment>A simple explanation of what the system should do and how people will use it.</rdfs:comment>
+        <rdfs:label>UseCase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/DepartmentCommitee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/DepartmentCommitee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/DepartmentCommittee"/>
+        <approves rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Proposal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Proposal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Proposal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/ProjectProposal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Supervisor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Supervisor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Supervisor"/>
+        <approves rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Proposal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Supervisor1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Supervisor1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Supervisor"/>
+        <noOfSupervisors rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</noOfSupervisors>
+        <roleOfSupervisor>guide students</roleOfSupervisor>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/TeamA -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/TeamA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Team"/>
+        <totalMembers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</totalMembers>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Supervisor">
+        <rdfs:comment>The teacher who guides and supports the student team.</rdfs:comment>
+        <rdfs:label>Supervisor</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+

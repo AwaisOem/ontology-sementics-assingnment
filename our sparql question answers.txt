@@ -1,0 +1,155 @@
+﻿Q1 What are the main phases of a capstone project?
+
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ex: <http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/>
+SELECT ?Phases WHERE {
+  ?Phases rdfs:subClassOf ex:CapstonePhase .
+}
+
+
+Q2 What diagrams are required for the DesignDocument?
+
+
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX ex: <http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/>
+SELECT ?Diagrams
+WHERE {
+  ?Diagrams rdfs:subClassOf  ex:DesignDocument .
+}
+
+
+
+
+Q3 Who approves ProjectProposals? 
+
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+
+PREFIX : <http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/>
+
+
+SELECT ?subject
+WHERE {
+  ?subject :approves :Proposal .
+}
+
+
+
+
+
+
+Q4 What is the composition of the FYP team in terms of total members, their roles, and supervisor  role?
+
+
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX : <http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/>
+
+
+SELECT DISTINCT 
+  ?StudentRole 
+  (STR(?totalMembers) AS ?TotalMember)
+  ?SupervisorProperty 
+  (STR(?SupervisorValue) AS ?SupervisorValues)
+WHERE {
+  ?StudentRole rdfs:subClassOf <http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/Student> .
+  
+  :TeamA :totalMembers ?totalMembers .
+  
+  OPTIONAL {
+    :Supervisor1 ?SupervisorProperty ?SupervisorValue .
+    FILTER(isLiteral(?SupervisorValue))
+  }
+}
+ORDER BY ?StudentRole ?SupervisorProperty
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Q5 4. Which entities are responsible for evaluating Capstone projects?
+
+
+
+
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/>
+SELECT ?role WHERE {
+  ?role rdfs:subClassOf :Evaluator .
+}
+
+
+
+
+
+
+Q6 Which components or artifacts are required as Capstone deliverables?
+
+
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/>
+SELECT ?component WHERE {
+  ?component rdfs:subClassOf :Deliverable .
+  
+}
+
+
+
+
+
+
+
+
+Q7 What types of requirements are captured in a Software Requirements Specification (SRS)?
+
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX : <http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/>
+
+
+SELECT ?requirementType  WHERE {
+  ?requirementType rdfs:subClassOf :SRS .
+
+
+}
