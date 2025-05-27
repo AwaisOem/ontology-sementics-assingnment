@@ -1,0 +1,1496 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57">
+    <Prefix name="" IRI="http://www.semanticweb.org/choudhary/ontologies/2025/2/untitled-ontology-57/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="/ActivityDiagram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Capstone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/CapstonePhase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ClassAndObjectDiagram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/CollaborationDiagram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/DFD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Deliverable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/DepartmentCommittee"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/DesignDocument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Designer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Developer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/DocumentationPhase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ERD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Evaluation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Evaluator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ExternalEvaluator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/FinalReport"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/FunctionalRequirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/GanttChart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ImplementationPhase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ImplementationPlan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/InternalEvaluator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/LiveDemo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/NonFunctionalRequirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Presentation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ProjectLeader"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ProjectManager"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ProjectManual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ProjectPoster"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ProjectProposal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ProjectVideo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Publication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Researcher"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/SRS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/SequenceDiagram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/StakeHolder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Student"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Supervisor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Team"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/TimeLine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/UseCase"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/approves"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/consistsOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/contains"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/designsDocument"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/develops"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/evaluatedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/evaluates"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/evaluatesDeliverable"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasDeliverable"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasDesignDocument"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasDocumentationPhase"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasEvaluation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasFinalReport"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasImplementationPhase"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasImplementationPlan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasLiveDemo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasPart"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasPhase"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasPresentation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasProjectLeader"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasPublication"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasSRS"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasSupervisor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasTeamMember"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/includesDiagram"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/isComponentOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/isDiagramOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/isPartOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/leadsProject"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/managedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/occursIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/participatesIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/participatesInEvent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/precedesPhase"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/providesEvaluation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/receivesEvaluation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/researches"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/resultsIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/reviewedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/supervisedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/worksWith"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/affiliation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/comments"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/doi"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/employeeId"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/endDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/evaluationDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/eventDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/eventName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/fileFormat"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/hasDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/hasTitle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/journal"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/location"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/noOfSupervisors"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/phaseName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/phaseOrder"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/projectCode"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/publicationDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/role"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/roleOfSupervisor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/score"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/startDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/status"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/studentId"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/submissionDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/teamId"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/teamName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/totalMembers"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="/version"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/DepartmentCommitee"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Proposal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Supervisor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/Supervisor1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/TeamA"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="/ActivityDiagram"/>
+        <Class IRI="/DesignDocument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ClassAndObjectDiagram"/>
+        <Class IRI="/DesignDocument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/CollaborationDiagram"/>
+        <Class IRI="/DesignDocument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/DFD"/>
+        <Class IRI="/DesignDocument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/DepartmentCommittee"/>
+        <Class IRI="/StakeHolder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/DesignDocument"/>
+        <Class IRI="/Deliverable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Designer"/>
+        <Class IRI="/Student"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Developer"/>
+        <Class IRI="/Student"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/DocumentationPhase"/>
+        <Class IRI="/CapstonePhase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ERD"/>
+        <Class IRI="/DesignDocument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Evaluator"/>
+        <Class IRI="/StakeHolder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ExternalEvaluator"/>
+        <Class IRI="/Evaluator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/FinalReport"/>
+        <Class IRI="/Deliverable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/FunctionalRequirement"/>
+        <Class IRI="/SRS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/GanttChart"/>
+        <Class IRI="/ImplementationPlan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ImplementationPhase"/>
+        <Class IRI="/CapstonePhase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ImplementationPlan"/>
+        <Class IRI="/Deliverable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/InternalEvaluator"/>
+        <Class IRI="/Evaluator"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/LiveDemo"/>
+        <Class IRI="/Deliverable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/NonFunctionalRequirement"/>
+        <Class IRI="/SRS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Presentation"/>
+        <Class IRI="/Deliverable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ProjectLeader"/>
+        <Class IRI="/Student"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ProjectManager"/>
+        <Class IRI="/StakeHolder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ProjectManual"/>
+        <Class IRI="/Deliverable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ProjectPoster"/>
+        <Class IRI="/Deliverable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ProjectProposal"/>
+        <Class IRI="/Deliverable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ProjectVideo"/>
+        <Class IRI="/Deliverable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Publication"/>
+        <Class IRI="/Deliverable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Researcher"/>
+        <Class IRI="/Student"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/SRS"/>
+        <Class IRI="/Deliverable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/SequenceDiagram"/>
+        <Class IRI="/DesignDocument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Student"/>
+        <Class IRI="/StakeHolder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Supervisor"/>
+        <Class IRI="/StakeHolder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/TimeLine"/>
+        <Class IRI="/ImplementationPlan"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/UseCase"/>
+        <Class IRI="/SRS"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="/DepartmentCommittee"/>
+        <NamedIndividual IRI="/DepartmentCommitee"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ProjectProposal"/>
+        <NamedIndividual IRI="/Proposal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Supervisor"/>
+        <NamedIndividual IRI="/Supervisor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Supervisor"/>
+        <NamedIndividual IRI="/Supervisor1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Team"/>
+        <NamedIndividual IRI="/TeamA"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/approves"/>
+        <NamedIndividual IRI="/DepartmentCommitee"/>
+        <NamedIndividual IRI="/Proposal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/approves"/>
+        <NamedIndividual IRI="/Supervisor"/>
+        <NamedIndividual IRI="/Proposal"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/noOfSupervisors"/>
+        <NamedIndividual IRI="/Supervisor1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/roleOfSupervisor"/>
+        <NamedIndividual IRI="/Supervisor1"/>
+        <Literal>guide students</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="/totalMembers"/>
+        <NamedIndividual IRI="/TeamA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/consistsOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/contains"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/designsDocument"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/develops"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/evaluatedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/evaluates"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/evaluatesDeliverable"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasDeliverable"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasDesignDocument"/>
+        <ObjectProperty IRI="/hasDeliverable"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasDesignDocument"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasDocumentationPhase"/>
+        <ObjectProperty IRI="/hasPhase"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasDocumentationPhase"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasEvaluation"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasFinalReport"/>
+        <ObjectProperty IRI="/hasDeliverable"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasFinalReport"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasImplementationPhase"/>
+        <ObjectProperty IRI="/hasPhase"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasImplementationPhase"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasImplementationPlan"/>
+        <ObjectProperty IRI="/hasDeliverable"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasImplementationPlan"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasLiveDemo"/>
+        <ObjectProperty IRI="/hasDeliverable"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasLiveDemo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasPart"/>
+        <ObjectProperty IRI="/hasDeliverable"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasPart"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasPhase"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasPresentation"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasProjectLeader"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasPublication"/>
+        <ObjectProperty IRI="/hasDeliverable"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasPublication"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasSRS"/>
+        <ObjectProperty IRI="/hasDeliverable"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasSRS"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasSupervisor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasTeamMember"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/includesDiagram"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/isComponentOf"/>
+        <ObjectProperty IRI="/isPartOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/isComponentOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/isDiagramOf"/>
+        <ObjectProperty IRI="/isPartOf"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/isDiagramOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/isPartOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/leadsProject"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/managedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/occursIn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/participatesIn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/participatesInEvent"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/precedesPhase"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/providesEvaluation"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/receivesEvaluation"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/researches"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/resultsIn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/reviewedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/supervisedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/worksWith"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/contains"/>
+        <ObjectProperty IRI="/isComponentOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/hasDeliverable"/>
+        <ObjectProperty IRI="/isPartOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/hasPart"/>
+        <ObjectProperty IRI="/isPartOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="/includesDiagram"/>
+        <ObjectProperty IRI="/isDiagramOf"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="/worksWith"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="/precedesPhase"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/approves"/>
+        <Class IRI="/DepartmentCommittee"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/approves"/>
+        <Class IRI="/Supervisor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/consistsOf"/>
+        <Class IRI="/ImplementationPlan"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/contains"/>
+        <Class IRI="/SRS"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/designsDocument"/>
+        <Class IRI="/Designer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/develops"/>
+        <Class IRI="/Developer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/evaluatedBy"/>
+        <Class IRI="/Capstone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/evaluates"/>
+        <Class IRI="/Evaluator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/evaluatesDeliverable"/>
+        <Class IRI="/Evaluator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasDeliverable"/>
+        <Class IRI="/Capstone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasDesignDocument"/>
+        <Class IRI="/Capstone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasDocumentationPhase"/>
+        <Class IRI="/Capstone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasEvaluation"/>
+        <Class IRI="/Capstone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasFinalReport"/>
+        <Class IRI="/Capstone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasImplementationPhase"/>
+        <Class IRI="/Capstone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasImplementationPlan"/>
+        <Class IRI="/Capstone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasLiveDemo"/>
+        <Class IRI="/Capstone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasPart"/>
+        <Class IRI="/Capstone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasPhase"/>
+        <Class IRI="/Capstone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasPresentation"/>
+        <Class IRI="/Capstone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasProjectLeader"/>
+        <Class IRI="/Team"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasPublication"/>
+        <Class IRI="/Capstone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasSRS"/>
+        <Class IRI="/Capstone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasSupervisor"/>
+        <Class IRI="/Team"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasTeamMember"/>
+        <Class IRI="/Team"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/includesDiagram"/>
+        <Class IRI="/DesignDocument"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/isComponentOf"/>
+        <Class IRI="/FunctionalRequirement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/isComponentOf"/>
+        <Class IRI="/NonFunctionalRequirement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/isComponentOf"/>
+        <Class IRI="/UseCase"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/isDiagramOf"/>
+        <Class IRI="/ActivityDiagram"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/isDiagramOf"/>
+        <Class IRI="/ClassAndObjectDiagram"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/isDiagramOf"/>
+        <Class IRI="/CollaborationDiagram"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/isDiagramOf"/>
+        <Class IRI="/DFD"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/isDiagramOf"/>
+        <Class IRI="/ERD"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/isDiagramOf"/>
+        <Class IRI="/SequenceDiagram"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/isPartOf"/>
+        <Class IRI="/Deliverable"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/leadsProject"/>
+        <Class IRI="/ProjectLeader"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/managedBy"/>
+        <Class IRI="/Capstone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/occursIn"/>
+        <Class IRI="/Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/participatesIn"/>
+        <Class IRI="/Student"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/participatesInEvent"/>
+        <Class IRI="/StakeHolder"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/precedesPhase"/>
+        <Class IRI="/CapstonePhase"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/providesEvaluation"/>
+        <Class IRI="/Evaluator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/receivesEvaluation"/>
+        <Class IRI="/Deliverable"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/researches"/>
+        <Class IRI="/Researcher"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/resultsIn"/>
+        <Class IRI="/Event"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/reviewedBy"/>
+        <Class IRI="/Deliverable"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/supervisedBy"/>
+        <Class IRI="/Capstone"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/worksWith"/>
+        <Class IRI="/Student"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/approves"/>
+        <Class IRI="/ProjectProposal"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/consistsOf"/>
+        <Class IRI="/GanttChart"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/consistsOf"/>
+        <Class IRI="/TimeLine"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/contains"/>
+        <Class IRI="/FunctionalRequirement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/contains"/>
+        <Class IRI="/NonFunctionalRequirement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/contains"/>
+        <Class IRI="/UseCase"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/designsDocument"/>
+        <Class IRI="/DesignDocument"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/develops"/>
+        <Class IRI="/Capstone"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/evaluates"/>
+        <Class IRI="/Capstone"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/evaluatesDeliverable"/>
+        <Class IRI="/Deliverable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasDeliverable"/>
+        <Class IRI="/Deliverable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasDesignDocument"/>
+        <Class IRI="/DesignDocument"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasDocumentationPhase"/>
+        <Class IRI="/DocumentationPhase"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasEvaluation"/>
+        <Class IRI="/Evaluation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasFinalReport"/>
+        <Class IRI="/FinalReport"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasImplementationPhase"/>
+        <Class IRI="/ImplementationPhase"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasImplementationPlan"/>
+        <Class IRI="/ImplementationPlan"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasLiveDemo"/>
+        <Class IRI="/LiveDemo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasPart"/>
+        <Class IRI="/Deliverable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasPhase"/>
+        <Class IRI="/CapstonePhase"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasPresentation"/>
+        <Class IRI="/Presentation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasProjectLeader"/>
+        <Class IRI="/ProjectLeader"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasPublication"/>
+        <Class IRI="/Publication"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasSRS"/>
+        <Class IRI="/SRS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasSupervisor"/>
+        <Class IRI="/Supervisor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasTeamMember"/>
+        <Class IRI="/Student"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/includesDiagram"/>
+        <Class IRI="/ActivityDiagram"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/includesDiagram"/>
+        <Class IRI="/ClassAndObjectDiagram"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/includesDiagram"/>
+        <Class IRI="/CollaborationDiagram"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/includesDiagram"/>
+        <Class IRI="/DFD"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/includesDiagram"/>
+        <Class IRI="/ERD"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/includesDiagram"/>
+        <Class IRI="/SequenceDiagram"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/isComponentOf"/>
+        <Class IRI="/SRS"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/isDiagramOf"/>
+        <Class IRI="/DesignDocument"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/isPartOf"/>
+        <Class IRI="/Capstone"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/leadsProject"/>
+        <Class IRI="/Capstone"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/managedBy"/>
+        <Class IRI="/ProjectManager"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/occursIn"/>
+        <Class IRI="/CapstonePhase"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/participatesIn"/>
+        <Class IRI="/CapstonePhase"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/participatesInEvent"/>
+        <Class IRI="/Event"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/precedesPhase"/>
+        <Class IRI="/CapstonePhase"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/providesEvaluation"/>
+        <Class IRI="/Evaluation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/receivesEvaluation"/>
+        <Class IRI="/Evaluation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/researches"/>
+        <Class IRI="/Capstone"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/resultsIn"/>
+        <Class IRI="/Deliverable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/reviewedBy"/>
+        <Class IRI="/StakeHolder"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/supervisedBy"/>
+        <Class IRI="/Supervisor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/worksWith"/>
+        <Class IRI="/Student"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/affiliation"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/comments"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/description"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/doi"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/email"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/employeeId"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/endDate"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/evaluationDate"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/eventDate"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/eventName"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/fileFormat"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/hasDescription"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/hasTitle"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/journal"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/location"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/name"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/phaseName"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/phaseOrder"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/projectCode"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/publicationDate"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/role"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/score"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/startDate"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/status"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/studentId"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/submissionDate"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/teamId"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/teamName"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/title"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="/version"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="/noOfSupervisors"/>
+        <Class IRI="/Supervisor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/roleOfSupervisor"/>
+        <Class IRI="/Supervisor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="/totalMembers"/>
+        <Class IRI="/Team"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="/affiliation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/comments"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/doi"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/email"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/employeeId"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/endDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/evaluationDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/eventDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/eventName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/fileFormat"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/hasDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/hasTitle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/journal"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/location"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/noOfSupervisors"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/phaseName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/phaseOrder"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/projectCode"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/publicationDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/role"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/roleOfSupervisor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/score"/>
+        <Datatype abbreviatedIRI="xsd:decimal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/startDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/status"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/studentId"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/submissionDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/teamId"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/teamName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/title"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/totalMembers"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="/version"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Capstone</IRI>
+        <Literal>A work done by a team with a goal to finish something, like a report, design, or product.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Capstone</IRI>
+        <Literal>Project</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Deliverable</IRI>
+        <Literal>Something the team gives at the end or during the project</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Deliverable</IRI>
+        <Literal>Deliverables</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Evaluation</IRI>
+        <Literal>Checking how well the team or their work is done. It could be by a teacher or Evaluator.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Evaluation</IRI>
+        <Literal>Evaluation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Event</IRI>
+        <Literal>Any meeting, activity, or program related to the FYP</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Event</IRI>
+        <Literal>Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>/Team</IRI>
+        <Literal>A group of people working together on the same project.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/Team</IRI>
+        <Literal>Team</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
