@@ -2,7 +2,9 @@ https://docs.google.com/document/d/1oGSuvEDZdOyqgvZJFGF54LVvXcnhO_UIw1d5RMxXijc/
 
 
 
-WebVowl Visualization
+WebVowl Visualization:
+https://service.tib.eu/webvowl/#iri=https://raw.githubusercontent.com/AwaisOem/ontology-sementics-assingnment/0a5d5917885f95894edf015498596947c783f278/our_ontology.owl
+
 ![image](https://github.com/user-attachments/assets/4f61f457-68c3-4928-a01b-8e294c66b3cf)
 
 
